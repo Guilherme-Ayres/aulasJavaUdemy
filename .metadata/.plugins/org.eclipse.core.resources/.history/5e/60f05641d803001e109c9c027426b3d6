@@ -1,0 +1,27 @@
+package Entities;
+
+import java.util.Date;
+
+public class usedProduct extends Product {
+
+	private Date manuFactureDate;
+
+	public usedProduct(String name, Double price, Date manuFactureDate) {
+		super(name, price);
+		this.manuFactureDate = manuFactureDate;
+	}
+
+	public Date getManuFactureDate() {
+		return manuFactureDate;
+	}
+
+	public void setManuFactureDate(Date manuFactureDate) {
+		this.manuFactureDate = manuFactureDate;
+	}
+	
+	@Override
+	public String priceTag() {
+		return super.getName() + " $ " + String.format("%.2f", super.getPrice());
+	
+}
+}

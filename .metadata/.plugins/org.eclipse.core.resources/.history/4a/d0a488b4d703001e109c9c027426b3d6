@@ -1,0 +1,8 @@
+package Entities;
+
+import java.util.Date;
+
+public class usedProduct {
+	
+	private Date manuFactureDate;
+}

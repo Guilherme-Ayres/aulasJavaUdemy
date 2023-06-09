@@ -1,0 +1,30 @@
+package entities;
+
+public class pessoaJuridica extends anualIncome {
+
+	private Integer employee;
+
+	public pessoaJuridica() {
+	}
+
+	public pessoaJuridica(Integer employee) {
+		super();
+		this.employee = employee;
+	}
+
+	public Integer getEmployee() {
+		return employee;
+	}
+
+	public void setEmployee(Integer employee) {
+		this.employee = employee;
+	}
+
+	@Override
+	public Double calc() {
+		if (employee < 10) {
+			return 
+		}
+	}
+
+}

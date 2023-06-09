@@ -1,0 +1,42 @@
+package reservationRoom;
+
+import java.util.Date;
+
+public class Reservation {
+	
+	private Integer roomMumber;
+	private	Date checkIn;
+	private	Date checkOut;
+	public Reservation(Integer roomMumber, Date checkIn, Date checkOut) {
+		super();
+		this.roomMumber = roomMumber;
+		this.checkIn = checkIn;
+		this.checkOut = checkOut;
+	}
+	public Integer getRoomMumber() {
+		return roomMumber;
+	}
+	public void setRoomMumber(Integer roomMumber) {
+		this.roomMumber = roomMumber;
+	}
+	public Date getCheckIn() {
+		return checkIn;
+	}
+	public void setCheckIn(Date checkIn) {
+		this.checkIn = checkIn;
+	}
+	public Date getCheckOut() {
+		return checkOut;
+	}
+	public void setCheckOut(Date checkOut) {
+		this.checkOut = checkOut;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+}

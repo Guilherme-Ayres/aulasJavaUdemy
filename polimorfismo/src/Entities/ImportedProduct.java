@@ -1,0 +1,30 @@
+package Entities;
+
+public class ImportedProduct extends Product {
+
+	private int customFee;
+
+	public ImportedProduct(String name, Double price, int customFee) {
+		super(name, price);
+		this.customFee = customFee;
+	}
+
+	public int getCustomFee() {
+		return customFee;
+	}
+
+	public void setCustomFee(int customFee) {
+		this.customFee = customFee;
+	}
+
+	public Double totalPrice() {
+		return getPrice() + customFee;
+	}
+
+	@Override
+	public String priceTag() {
+		return getName() + " $ " + totalPrice() + " (Custom fee: " + customFee + ")";
+
+	}
+
+}

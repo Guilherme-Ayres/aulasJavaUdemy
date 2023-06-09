@@ -1,0 +1,26 @@
+package Entities;
+
+import java.util.Date;
+
+public class usedProduct extends Procuct{
+	
+	private Date manuFactureDate;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

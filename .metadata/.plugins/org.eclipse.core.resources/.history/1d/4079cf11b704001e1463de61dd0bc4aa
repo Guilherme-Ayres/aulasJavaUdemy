@@ -1,0 +1,15 @@
+package entities;
+
+public class pessoaFisica extends anualIncome{
+	
+	private Double rendanual;
+	private Double gastoSaude;
+
+	@Override
+	public Double calc() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
+}

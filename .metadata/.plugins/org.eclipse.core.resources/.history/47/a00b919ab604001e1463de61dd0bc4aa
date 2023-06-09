@@ -1,0 +1,7 @@
+package entities;
+
+public class pessoaFisica extends anualIncome{
+	
+	@Override
+	public abstract Double calc();
+}

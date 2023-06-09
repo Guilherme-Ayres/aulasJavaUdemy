@@ -1,0 +1,39 @@
+package polimorfismo;
+
+import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Locale;
+import java.util.Scanner;
+
+import Entities.ImportedProduct;
+import Entities.Product;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+		List<Product> list = new ArrayList<>();
+
+		System.out.print("Enter the number of produtcs: ");
+		int n = sc.nextInt();
+		for (int i = 1; i <= 1; i++) {
+			System.out.println("Product #" + i + " data:");
+			System.out.print("Commom, used ou imported? ");
+			char ch = sc.next().charAt(0);
+			if (ch == 'c') {
+				System.out.print("Name: ");
+				String name = sc.next();
+				System.out.print("Price: ");
+				double price = sc.nextDouble();
+				list.add(new Product(name, price));
+			}
+		}
+
+		sc.close();
+	}
+
+}

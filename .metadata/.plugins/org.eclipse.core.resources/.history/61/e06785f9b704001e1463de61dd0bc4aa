@@ -1,0 +1,33 @@
+package entities;
+
+public class pessoaJuridica extends anualIncome{
+	
+	private Integer employee;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	@Override
+	public Double calc() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

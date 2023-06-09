@@ -1,0 +1,32 @@
+package entities;
+
+public class pessoaFisica extends anualIncome {
+
+	private Double gastoSaude;
+
+	public pessoaFisica() {
+	}
+
+	public pessoaFisica(String name, Double anualIncome, Double gastoSaude) {
+		super(name, anualIncome);
+		this.gastoSaude = gastoSaude;
+	}
+
+	public Double getGastoSaude() {
+		return gastoSaude;
+	}
+
+	public void setGastoSaude(Double gastoSaude) {
+		this.gastoSaude = gastoSaude;
+	}
+
+	@Override
+	public Double calc() {
+		if (super.getAnualIncome() < 20.000) {
+			return super.getAnualIncome() * 0.15;
+		} else {
+			return super.getAnualIncome() * 0.25;
+		}
+	}
+
+}

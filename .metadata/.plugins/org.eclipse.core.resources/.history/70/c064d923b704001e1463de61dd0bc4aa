@@ -1,0 +1,39 @@
+package entities;
+
+public class pessoaFisica extends anualIncome {
+
+	private Double rendanual;
+	private Double gastoSaude;
+
+	public pessoaFisica() {
+	}
+
+	public pessoaFisica(Double rendanual, Double gastoSaude) {
+		super();
+		this.rendanual = rendanual;
+		this.gastoSaude = gastoSaude;
+	}
+
+	public Double getRendanual() {
+		return rendanual;
+	}
+
+	public void setRendanual(Double rendanual) {
+		this.rendanual = rendanual;
+	}
+
+	public Double getGastoSaude() {
+		return gastoSaude;
+	}
+
+	public void setGastoSaude(Double gastoSaude) {
+		this.gastoSaude = gastoSaude;
+	}
+
+	@Override
+	public Double calc() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

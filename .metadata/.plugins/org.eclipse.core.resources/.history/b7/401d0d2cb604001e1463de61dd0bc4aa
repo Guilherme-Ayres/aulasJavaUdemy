@@ -1,0 +1,19 @@
+package entities;
+
+public class anualIncome {
+	
+	private String name;
+	private Double anualIncome;
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

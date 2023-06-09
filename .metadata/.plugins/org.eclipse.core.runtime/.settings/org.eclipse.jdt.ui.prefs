@@ -1,0 +1,10 @@
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="java.lang.Cloneable"><rhs name\="java.util.Locale"/><rhs name\="java.text.SimpleDateFormat"/></lhs><lhs name\="entities.triangle"><rhs name\="entities.triangle"/></lhs><lhs name\="entities.Retangulo"><rhs name\="entities.Retangulo"/></lhs><lhs name\="entities.Answer"><rhs name\="entities.Answer"/></lhs><lhs name\="entities.Product"><rhs name\="entities.Product"/></lhs><lhs name\="java.lang.Enum"><rhs name\="entities.enums.OrdemStatus"/></lhs><lhs name\="java.lang.constant.Constable"><rhs name\="entities.enums.OrdemStatus"/></lhs><lhs name\="entities.enums.OrdemStatus"><rhs name\="entities.enums.OrdemStatus"/></lhs><lhs name\="java.util.Collection"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.lang.Iterable"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.List"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="entities.Worker"><rhs name\="entities.Worker"/></lhs><lhs name\="java.text.DateFormat"><rhs name\="java.text.SimpleDateFormat"/></lhs><lhs name\="java.text.Format"><rhs name\="java.text.SimpleDateFormat"/></lhs><lhs name\="java.text.SimpleDateFormat"><rhs name\="java.text.SimpleDateFormat"/></lhs><lhs name\="entities.OrderItem"><rhs name\="entities.OrderItem"/></lhs><lhs name\="Entities.Product"><rhs name\="Entities.Product"/><rhs name\="Entities.usedProduct"/><rhs name\="Entities.ImportedProduct"/></lhs><lhs name\="entities.anualIncome"><rhs name\="entities.pessoaFisica"/><rhs name\="entities.pessoaJuridica"/></lhs><lhs name\="reservationRoom.Reservation"><rhs name\="reservationRoom.Reservation"/></lhs></history>
+content_assist_number_of_computers=17
+eclipse.preferences.version=1
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.internal.ui.navigator.librariesnode=true
+org.eclipse.jdt.ui.formatterprofiles.version=23
+spelling_locale_initialized=true
+typefilter_migrated_2=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

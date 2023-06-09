@@ -1,0 +1,6 @@
+package entities;
+
+public class pessoaFisica extends anualIncome{
+	
+	
+}
